@@ -1,1 +1,1 @@
-module.exports = require('./dist/http-status-codes')
+module.exports = require('./dist/src')

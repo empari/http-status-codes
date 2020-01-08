@@ -1,0 +1,63 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+class HttpStatusCode {
+    constructor() {
+        this.name = 'HttpStatusCode';
+    }
+}
+exports.HttpStatusCode = HttpStatusCode;
+HttpStatusCode.ACCEPTED = 202;
+HttpStatusCode.BAD_GATEWAY = 502;
+HttpStatusCode.BAD_REQUEST = 400;
+HttpStatusCode.CONFLICT = 409;
+HttpStatusCode.CONTINUE = 100;
+HttpStatusCode.CREATED = 201;
+HttpStatusCode.EXPECTATION_FAILED = 417;
+HttpStatusCode.FAILED_DEPENDENCY = 424;
+HttpStatusCode.FORBIDDEN = 403;
+HttpStatusCode.GATEWAY_TIMEOUT = 504;
+HttpStatusCode.GONE = 410;
+HttpStatusCode.HTTP_VERSION_NOT_SUPPORTED = 505;
+HttpStatusCode.IM_A_TEAPOT = 418;
+HttpStatusCode.INSUFFICIENT_SPACE_ON_RESOURCE = 419;
+HttpStatusCode.INSUFFICIENT_STORAGE = 507;
+HttpStatusCode.INTERNAL_SERVER_ERROR = 500;
+HttpStatusCode.LENGTH_REQUIRED = 411;
+HttpStatusCode.LOCKED = 423;
+HttpStatusCode.METHOD_FAILURE = 420;
+HttpStatusCode.METHOD_NOT_ALLOWED = 405;
+HttpStatusCode.MOVED_PERMANENTLY = 301;
+HttpStatusCode.MOVED_TEMPORARILY = 302;
+HttpStatusCode.MULTI_STATUS = 207;
+HttpStatusCode.MULTIPLE_CHOICES = 300;
+HttpStatusCode.NETWORK_AUTHENTICATION_REQUIRED = 511;
+HttpStatusCode.NO_CONTENT = 204;
+HttpStatusCode.NON_AUTHORITATIVE_INFORMATION = 203;
+HttpStatusCode.NOT_ACCEPTABLE = 406;
+HttpStatusCode.NOT_FOUND = 404;
+HttpStatusCode.NOT_IMPLEMENTED = 501;
+HttpStatusCode.NOT_MODIFIED = 304;
+HttpStatusCode.OK = 200;
+HttpStatusCode.PARTIAL_CONTENT = 206;
+HttpStatusCode.PAYMENT_REQUIRED = 402;
+HttpStatusCode.PERMANENT_REDIRECT = 308;
+HttpStatusCode.PRECONDITION_FAILED = 412;
+HttpStatusCode.PRECONDITION_REQUIRED = 428;
+HttpStatusCode.PROCESSING = 102;
+HttpStatusCode.PROXY_AUTHENTICATION_REQUIRED = 407;
+HttpStatusCode.REQUEST_HEADER_FIELDS_TOO_LARGE = 431;
+HttpStatusCode.REQUEST_TIMEOUT = 408;
+HttpStatusCode.REQUEST_TOO_LONG = 413;
+HttpStatusCode.REQUEST_URI_TOO_LONG = 414;
+HttpStatusCode.REQUESTED_RANGE_NOT_SATISFIABLE = 416;
+HttpStatusCode.RESET_CONTENT = 205;
+HttpStatusCode.SEE_OTHER = 303;
+HttpStatusCode.SERVICE_UNAVAILABLE = 503;
+HttpStatusCode.SWITCHING_PROTOCOLS = 101;
+HttpStatusCode.TEMPORARY_REDIRECT = 307;
+HttpStatusCode.TOO_MANY_REQUESTS = 429;
+HttpStatusCode.UNAUTHORIZED = 401;
+HttpStatusCode.UNPROCESSABLE_ENTITY = 422;
+HttpStatusCode.UNSUPPORTED_MEDIA_TYPE = 415;
+HttpStatusCode.USE_PROXY = 305;
+//# sourceMappingURL=HttpStatusCode.class.js.map
