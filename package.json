@@ -1,5 +1,5 @@
 {
-  "name": "http-status-codes",
+  "name": "@empari/http-status-codes",
   "description": "Constants enumerating the HTTP status codes. Based on the Java Apache HttpStatus API",
   "version": "1.0.0",
   "main": "index.js",
