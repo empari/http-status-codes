@@ -3,10 +3,10 @@
     "noImplicitAny": true,
     "removeComments": true,
     "preserveConstEnums": true,
-    "outFile": "./dist/http-status-codes.js",
+    "outDir": "./dist",
     "moduleResolution": "node",
     "esModuleInterop": true,
-    "module": "amd",
+    "module": "CommonJS",
     "sourceMap": true,
     "target": "esnext",
     "allowJs": true
