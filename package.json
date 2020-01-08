@@ -1,0 +1,42 @@
+{
+  "name": "http-status-codes",
+  "description": "Constants enumerating the HTTP status codes. Based on the Java Apache HttpStatus API",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "typings": "index.d.ts",
+  "repository": "git@github.com:empari/http-status-codes.git",
+  "author": "Team Empari <suporte@empari.com.br>",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "git-cz"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "typescript",
+    "http",
+    "apache",
+    "HttpStatus",
+    "httpclient",
+    "status",
+    "codes"
+  ],
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.4",
+    "@commitlint/config-conventional": "^8.3.4",
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "3.0.2",
+    "husky": "^4.0.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
