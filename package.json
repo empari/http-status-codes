@@ -1,7 +1,7 @@
 {
-  "name": "http-status-codes",
+  "name": "@empari/http-status-codes",
   "description": "Constants enumerating the HTTP status codes. Based on the Java Apache HttpStatus API",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "repository": "git@github.com:empari/http-status-codes.git",
   "author": "Team Empari <suporte@empari.com.br>",
