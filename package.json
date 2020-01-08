@@ -8,11 +8,10 @@
   "license": "MIT",
   "scripts": {
     "commit": "git-cz",
-    "minify": "jsmin -o ./dist/http-status-codes.min.js ./dist/http-status-codes.js",
     "test": "jest --passWithNoTests --colors --noStackTrace --runInBand",
     "test:staged": "yarn test -- --findRelatedTests",
     "test:ci": "yarn test -- --coverage",
-    "build": "tsc --declaration && yarn minify"
+    "build": "tsc --declaration"
   },
   "keywords": [
     "node",
